@@ -5,10 +5,10 @@ import java.nio.file.Path;
 
 public class General {
     public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    
+
     public static void main(String[] args) throws IOException {
         FileInputStream fileReader = new FileInputStream("");
-        InputStreamReader ipsr = new InputStreamReader(fileReader, StandardCharsets.UTF_8));
+        InputStreamReader ipsr = new InputStreamReader(fileReader, StandardCharsets.UTF_8);
         BufferedReader bufferedReader = new BufferedReader(ipsr);
         try {
             bufferedReader.readLine();
